@@ -1,0 +1,446 @@
+
+body {
+    margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.download-page {
+    width: 100%;
+    min-height: 100vh;
+    z-index: 2;
+    max-width: 622.5px;
+    margin: 0 auto;
+    position: relative;
+}
+.download-page .download-header {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    max-width: 622.5px;
+    top: 0;
+}
+.download-page .download-footer {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    max-width: 622.5px;
+    bottom: 0;
+}
+.download-page .download-background {
+    width: 100%;
+    max-width: 622.5px;
+    position: relative;
+}
+.download-page .download-background .banner-img {
+    width: 100%;
+}
+.download-page .first-content {
+    margin-top: -45px;
+    position: relative;
+}
+.download-page .container-wrap {
+    padding-bottom: 100px;
+    background-image: url(../image/bg_02.jpg);
+    background-size: contain;
+}
+.download-page .download-background1 {
+    width: 100%;
+}
+.download-page .download-background1 .content-box {
+    margin: 12px 12px 0;
+    background: #e9f6f9;
+    border-radius: 4px;
+}
+.download-page .download-background1 .content-box table {
+    width: 100%;
+    text-align: center;
+    color: #003c4d;
+    font-size: 16px;
+    border-spacing: 0;
+}
+.download-page .download-background1 .content-box table th,
+.download-page .download-background1 .content-box table td {
+    height: 32px;
+    border-bottom: solid 1px rgba(83, 171, 191, 0.2);
+    border-right: solid 1px rgba(83, 171, 191, 0.2);
+}
+.download-page .download-background1 .content-box table th {
+    height: 38px;
+}
+.download-page .download-background1 .content-box .content-tips,
+.download-page .download-background1 .content-box .content-tips-big {
+    font-size: 18px;
+    color: #ed2627;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.download-page .download-background1 .content-box .content-tips p,
+.download-page .download-background1 .content-box .content-tips-big p {
+    margin: 0;
+    line-height: 1.5;
+}
+.download-page .download-background1 .content-box .content-tips-big {
+    font-size: 16px;
+}
+.download-page .sub-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003c4d;
+    padding: 12px;
+    padding-bottom: 0;
+}
+.download-page .sub-title img {
+    width: 15px;
+    height: 9px;
+    margin-right: 4px;
+}
+.download-page .content-img {
+    margin: 12px 12px 0;
+    border-radius: 5px;
+}
+.download-page .content-img img {
+    width: 100%;
+}
+.buttons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    width: 80%;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+    right: 50%;
+    -webkit-transform: translate(50%, -35%);
+    transform: translate(50%, -35%);
+}
+.buttons .download-btn,
+.buttons .service-btn {
+    width: 11rem;
+    height: 60px;
+    margin: 0 10px;
+    background: url("../image/btn-bg.png");
+    background-size: cover;
+    text-decoration: none;
+    height: 120%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons img {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+.title1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 25px 0px 0 0px;
+}
+.title1 img {
+    width: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.title1 span {
+    color: #003c4d;
+    font: 17px/1 sans-serif;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.ios-container {
+    margin: 10px 9px 10px 9px;
+    font-family: PingFangSC;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #5c5858;
+    padding-left: 28px;
+    padding-right: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    display: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.ios-container-images {
+    padding-left: 36px;
+    padding-right: 37px;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.ios-container-title {
+    font-family: PingFang-HK;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    margin-top: 20px;
+    color: #003c4d;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.ios-container-content {
+    margin: 10px 0px 10px 0px;
+    font-family: PingFangSC;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #003c4d;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.ios-container-content2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.ios-container-content1 {
+    height: 171px;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0, 162, 199, 0.5);
+    box-shadow: 0 2px 6px 0 rgba(0, 162, 199, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: PingFangSC;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #003c4d;
+    padding: 0 31px;
+    line-height: 1.5;
+}
+.ios-container-buttons {
+    width: 100%;
+    height: 40px;
+    background-image: url(../image/btn-daanniu-162-40-b@2x.png);
+    background-size: 100% 100%;
+    background-position: left 50% top 0px;
+    background-repeat: no-repeat, repeat;
+    color: #5b2800;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+.ios-container-buttons span {
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: -4px;
+    font-weight: bold;
+}
+.ios-container-buttons1 {
+    width: 282px;
+    height: 48px;
+    background-image: url(../image/btn-daanniu-282-44-b@2x.png);
+    background-size: 100% 100%;
+    background-position: left 50% top 0px;
+    background-repeat: no-repeat, repeat;
+    color: #5b2800;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ios-container-buttons1 span {
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    text-align: center;
+    margin-left: 3px;
+    margin-top: -4px;
+}
+.ios-container-buttons1 img {
+    margin-top: -4px;
+}
+[aria-hidden="true"] {
+    opacity: 0;
+    position: absolute;
+    z-index: -9999;
+    pointer-events: none;
+}
+.downld-progress {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 7777;
+}
+.downld-progress .progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 292px;
+    height: 293px;
+    z-index: 999999;
+    text-align: center;
+}
+.downld-progress .progress .progress-hint {
+    width: 100%;
+    height: 292px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 150px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.downld-progress .progress p {
+    padding: 25px;
+    z-index: 9;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+}
+.downld-progress .progress img {
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+}
+.downld-progress .masking {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background: #000;
+    z-index: 8888;
+}
