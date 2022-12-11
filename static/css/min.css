@@ -115,9 +115,15 @@ ul {
     margin: 0 auto 43px;
     padding: 17px 0 17px 64px;
     border: 2px solid #fff;
-    background: linear-gradient(to right, #fff100, #db6f0b);
+    background: linear-gradient(to right, #a900ff, #db6f0b);
 }
 
+.diversion-btn.type3 {
+    margin: 0 auto 43px;
+    padding: 17px 0 17px 64px;
+    border: 2px solid #fff;
+    background: linear-gradient(to right, #fff100, #db6f0b);
+}
 .diversion-btn::before {
     position: absolute;
     content: "";
@@ -148,7 +154,7 @@ ul {
         display: block
     }
     .bg {
-        background-image: url("../image/lohqrkdmgghbcps.jpg");
+        background-image: url("../image/zhucebj.png");
     }
     .navigator {
         height: 60px
